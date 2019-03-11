@@ -2,7 +2,9 @@ PASSWORD = 'Waubonsee'
 
 user_pass = input('Enter Password: ')
 
-if(user_pass == PASSWORD):
+while(user_pass != PASSWORD):
+    print('that\'s not it')
+    user_pass = input('Enter Password: ')
+
+
     print('you got it')
-else:
-    print('nuh uh')
