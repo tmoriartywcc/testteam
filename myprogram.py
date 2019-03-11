@@ -3,6 +3,6 @@ PASSWORD = 'Waubonsee'
 user_pass = input('Enter Password: ')
 
 if(user_pass == PASSWORD):
-    print('you got it')
+    print('You got it')
 else:
-    print('nuh uh')
+    print('Not quite right')
